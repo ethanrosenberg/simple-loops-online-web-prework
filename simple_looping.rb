@@ -13,6 +13,7 @@ def loop_iterator(number_of_times)
   counter = 0
   while counter < number_of_times
     puts phrase
+    counter += counter
   end
   
 end
